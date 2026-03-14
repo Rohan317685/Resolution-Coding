@@ -1,0 +1,40 @@
+p {
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#introduction {
+    color: black;
+    margin-top: 9px;
+    margin-bottom: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.passions {
+    color: chocolate;
+}
+
+body {
+    background-color: blanchedalmond; 
+    font-family: sans-serif;
+}
+
+img {
+    border-radius: 8px;
+    width: 100px;
+    border: 3px;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    border-radius: 9px;
+    border-width: 0px;
+    padding: 15px;
+}
+
+button:hover {
+    background-color: rgb(102, 102, 102);
+}
