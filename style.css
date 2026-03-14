@@ -1,5 +1,5 @@
 p {
-    color: blue;
+    color: rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -28,13 +28,71 @@ img {
 }
 
 button {
-    color: rgb(0, 0, 0);
-    background-color: aqua;
+    color: rgb(255, 255, 255);
+    background-color: rgba(47, 4, 239, 0.572);
     border-radius: 9px;
     border-width: 0px;
     padding: 15px;
+    
+
 }
+
+#projects {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 9px;
+    border-width: 0px;
+    padding: 15px;
+    
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
 
 button:hover {
     background-color: rgb(102, 102, 102);
+}
+
+.project-card {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    color: black;
+    font-family: cursive;
+    background-color: azure;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.project-card:hover {
+    background-color: rgba(153, 154, 164, 0.526);
+}
+
+.project-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.project-time {
+    text-align: left;
+    color: darkcyan;
+}
+
+#back-btn {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 8px;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
 }
